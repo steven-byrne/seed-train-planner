@@ -69,8 +69,6 @@ R · Shiny · bslib (Bootstrap 5) · Plotly · DT · shinyjs · shinyWidgets · 
 
 Built by **Steven Byrne**, applying programming skills from the RMIT Graduate Certificate in Data Science to the kind of seed train planning I carried out over many years in upstream cell culture process development.
 
-Related projects: [Vi-CELL Processor](https://github.com/steven-byrne/vicell-processor) and [Ambr 250 Data Pipeline](https://github.com/steven-byrne/ambr-data-pipeline).
-
 This is an independent personal project. It uses generic example values only, contains no confidential information, and is not affiliated with or endorsed by any employer or equipment supplier. Product names are trademarks of their respective owners.
 
 ## Licence
