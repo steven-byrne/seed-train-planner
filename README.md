@@ -34,10 +34,7 @@ All default values, cell line names and medium names are generic examples.
 Requires R (4.1+) and the following packages:
 
 ```r
-install.packages(c(
-  "shiny", "bslib", "dplyr", "DT", "shinyWidgets", "ggplot2",
-  "plotly", "lubridate", "rhandsontable", "shinyjs", "uuid"
-))
+install.packages(c("shiny", "bslib", "DT", "plotly"))
 ```
 
 Then from the repository folder:
@@ -57,13 +54,13 @@ or open `app.R` in RStudio and click **Run App**.
 
 ## Tech stack
 
-R · Shiny · bslib (Bootstrap 5) · Plotly · DT · shinyjs · shinyWidgets · dplyr · lubridate
+R · Shiny · bslib (Bootstrap 5) · Plotly · DT
 
 ## Roadmap
 
 - Use the vial and thaw density settings in the schedule calculations
 - Viability-adjusted growth projections
-- Editable schedule with live recalculation (rhandsontable)
+- Editable schedule with live recalculation
 - Backbone culture timeline and multi-bioreactor detail views
 - Unit tests for the strategy and scheduling logic (testthat)
 
