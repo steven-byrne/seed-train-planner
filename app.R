@@ -329,7 +329,7 @@ server <- function(input, output, session) {
   # Live summary tiles
   output$vb_cells <- renderUI({
     p <- params(); req(p$bioreactor_count, p$bioreactor_volume, p$bioreactor_density)
-    HTML(sprintf("%.1f &times; 10<sup>9</sup>", p$bioreactor_count * p$bioreactor_volume * p$bioreactor_density))
+    HTML(sprintf("<span style='white-space:nowrap'>%.1f &times; 10<sup>9</sup></span>", p$bioreactor_count * p$bioreactor_volume * p$bioreactor_density))
   })
   output$vb_volume <- renderText({
     p <- params(); req(p$bioreactor_count, p$bioreactor_volume)
