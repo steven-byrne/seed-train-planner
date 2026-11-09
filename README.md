@@ -6,7 +6,7 @@ An interactive **R Shiny** app that plans mammalian cell culture seed trains, wo
 
 Planning a seed train by hand means juggling cell growth, flask and bioreactor volumes, passage densities and lab working days. This app turns those inputs into a set of feasible expansion strategies, a schedule and a timeline that a scientist can review, download and adjust.
 
-![Seed Train Planner showing expansion strategies, timeline and schedule](docs/seed-train-planner-screenshot.png)
+![Seed Train Planner showing expansion strategies, timeline and schedule](docs/seed-train-planner-redesign.png)
 
 ## Features
 
