@@ -2,7 +2,7 @@
 
 An interactive **R Shiny** app that plans mammalian cell culture seed trains, working backwards from a production bioreactor start date to a vial thaw date and a day-by-day passage schedule.
 
-**[▶ Try it live on shinyapps.io](https://upstreamht822.shinyapps.io/seed-train-planner/)** (no install needed; the app may take about 20 seconds to wake up)
+**[▶ Try it live on shinyapps.io](https://steven-byrne.shinyapps.io/seed-train-planner/)** (no install needed; the app may take about 20 seconds to wake up)
 
 Planning a seed train by hand means juggling cell growth, flask and bioreactor volumes, passage densities and lab working days. This app turns those inputs into a set of feasible expansion strategies, a schedule and a timeline that a scientist can review, download and adjust.
 
